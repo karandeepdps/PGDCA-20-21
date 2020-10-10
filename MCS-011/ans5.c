@@ -8,7 +8,7 @@ bool found = false;
 char arr[][5] = {"a", "cat", "in", "zoo"}; 
 int lower = 0, upper = 4, mid_index, count = 0; 
 
-printf("\n Enter the String you Want to Search : "); 
+printf("\n Input the String to Search : "); 
 gets(str); 
 
    while (lower <= upper) {
