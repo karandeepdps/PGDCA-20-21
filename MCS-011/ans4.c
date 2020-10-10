@@ -3,7 +3,7 @@
 
 int main()
 {
-char str[1000],c1,c2;
+char str[1000],char1,char2;
 int choice,i;
 printf("\n Enter String : ");
 gets(str);
@@ -17,13 +17,13 @@ switch(choice)
 	case 1:
 		printf("\n Enter the Character you want to replace : "); 
 		fflush(stdin); 
-		scanf("%c",&c1); 
+		scanf("%c",&char1); 
 		printf("\n Enter the replacement Character suggested by You : "); 
 		fflush(stdin); 
-		scanf("%c",&c2); 
+		scanf("%c",&char2); 
 		for(i=0; str[i]!='\0'; i++) 
-			if(str[i] == c1) 
-				str[i] = c2; 
+			if(str[i] == char1) 
+				str[i] = char2; 
 		
 		printf("\n New String is %s", str); 
 		break; 
