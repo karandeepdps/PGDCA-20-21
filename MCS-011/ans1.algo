@@ -1,0 +1,8 @@
+#Algorithm
+#1. Start
+#2. Read one number a
+#3. Store the remainder when the number a is divided by 16 in a temporary variable temp. If temp is less than 10, insert (48 + temp) in a character array otherwise if temp is greater than or equals to 10, insert (55 + temp) in the character array.
+#4. Divide the number a by 16 now
+#5.Repeat the above two steps until the number a is not equal to 0
+#6.Print the array in reverse order now.
+#7.Stop.
